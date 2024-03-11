@@ -1,7 +1,7 @@
 import FunctionPage from 'src/pages/IndexPage.vue'
 import { shallowMount } from '@vue/test-utils'
 
-test("Name Ilada Seangpirom 6404101379 Avaliable on file",()=>{
+test("Name Ilada Seangpirom 6404101379 - Avaliable on file",()=>{
   const wrapper = shallowMount(FunctionPage)
   expect(wrapper.find("#firstName").element.value).toBe("Ilada")
   expect(wrapper.find("#lastName").element.value).toBe("Seangpirom")
